@@ -1,0 +1,676 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.thanhtoan.hienthira {
+    visibility: visible;
+    opacity: 1;
+    transform: scale(1);
+}
+
+label.control-label.col-sm-4 {
+    font-size: 19px;
+}
+
+button.btn.btn-default:hover {
+    background: #3F7CF7;
+    color: white;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+h2 {
+    font-size: 47px;
+    color: #3F7CF7;
+}
+
+.thanhtoan {
+    background: lavender;
+    padding: 20px 20px;
+    border-radius: 10px;
+    position: fixed;
+    top: 15%;
+    width: 1098px;
+    z-index: 5;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.4s;
+    transform: scale(0.4);
+}
+.ndgiohang {
+    background: rgb(244,244,244);
+    padding-top: 25px;
+    padding-bottom: 33px;
+}
+.btn.btn-large.btn-block.btn-danger.btn-checkout {color: white;font-size: 21px;padding-top: 14px;}
+
+.row.thtt {
+    height: 66px;
+}
+
+.amount small {
+    color: black;
+    font-size: 12px;
+    display: block;
+}
+
+.amount p {
+    font-size: 26px;
+    color: red;
+    margin-top: -9px;
+}
+
+.amount {
+    position: absolute;
+    right: 12px;
+}
+
+.thanhtien span {
+    position: absolute;
+    left: 16px;
+}
+
+.row.thanhtien {
+    height: 76px;
+    padding-top: 10px;
+}
+
+.tamtinh strong {position: absolute;right: 0;}
+
+.tamtinh span {
+    position: absolute;
+    left: 0;
+}
+
+.row.tamtinh {
+    border-bottom: 1px solid gray;
+    position: relative;
+    height: 45px;
+}
+
+i.fa.fa-plus {
+    top: 0px;
+    left: 76px;
+    position: absolute;
+    width: 44px;
+    height: 36px;
+    padding: 10px 15px;
+    border-left: 1px solid gray;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+i.fa.fa-plus:hover {
+    background: #F4F4F4;
+    border: 1px solid gray;
+}
+
+div#slspham {
+    position: absolute;
+    top: 5px;
+    left: 56px;
+}
+
+i.fa.fa-minus {display: inline-block;position: absolute;top: 0px;width: 45px;left: 0px;height: 36px;padding: 11px 15px;border-right: 1px solid gray;cursor: pointer;border-radius: 3px;}
+
+i.fa.fa-minus:hover {
+    background: #F4F4F4;
+    border: 1px solid gray;
+}
+
+.col-xs-2.col-sm-2.col-md-2.col-lg-2.sl {
+    padding-top: 35px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 100%;
+    height: 36px;
+    display: inline-block;
+    margin-top: 43px;
+    position: relative;
+}
+
+.col-xs-3.col-sm-3.col-md-3.col-lg-3.giatien {
+    padding-top: 38px;
+    font-weight: bold;
+}
+
+.thongtin a {
+    margin-left: 51px;
+}
+span.sl {
+    font-size: 15px;
+}
+
+span.tieude {
+    font-size: 29px;
+    font-weight: bold;
+}
+.hangxs {
+    font-size: 13px;
+}
+
+.col-xs-4.col-sm-4.col-md-4.col-lg-4.thongtin {
+    padding-top: 38px;
+}
+
+.col-xs-4.col-sm-4.col-md-4.col-lg-4.khungtt {
+    background: white;
+    border-radius: 5px;
+    padding: 10px 32px;
+    height: 212px;
+}
+
+.row._1sp {
+    background: white;
+    border-radius: 5px;
+    padding: 10px 9px;
+    width: 746px;
+    border-bottom: 1px solid gray;
+}
+
+.col-xs-8.col-sm-8.col-md-8.col-lg-8.khungsp {background: #F4F4F4;}
+.giasp {
+    display: inline;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.giohangchitiet ul {
+    list-style: none;
+    margin-bottom: 0px;
+}
+
+.giohangchitiet li {
+    border-bottom: 1px solid gray;
+    padding-bottom: 11px;
+    padding-top: 7px;
+    cursor: pointer;
+}
+
+li.connua {
+    float: right;
+    font-size: 12px;
+    font-style: italic;
+    border: none;
+}
+.tongtien {
+    float: right;
+    font-weight: bold;
+}
+
+.xemgiohang {
+    float: left;
+    width: 309px;
+    height: 53px;
+    line-height: 47px;
+    font-size: 15px;
+    padding-left: 12px;
+    padding-right: 19px;
+    background: #808080ad;
+}
+
+.slsp {
+    float: left;
+    margin-left: 102px;
+    margin-top: 7px;
+    font-size: 14px;
+    margin-right: 3px;
+}
+
+.tensp {font-size: 18px;font-weight: bold;color: green;}
+
+.anhsp {
+    float: left;
+    margin: 8px 5px;
+}
+
+.giohangchitiet {
+    width: 310px;
+    height: 327px;
+    border: 1px solid gray;
+    border-top: 8px solid green;
+    position: absolute;
+    right: 14%;
+    z-index: 5;
+    background: white;
+    top: 73px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.4s;
+}
+
+.giohangchitiet.ghfix {
+    position: fixed;
+}
+
+.giohangchitiet.thaydoitop {
+    top: 337px;
+}
+.giohangchitiet.giohangra{
+    opacity: 1;
+    visibility: visible;
+}
+.giohang {
+    cursor: pointer;
+}
+
+.nutdilen i {
+    color: red;
+}
+
+.nutdilen i:hover {
+    color: blue;
+}
+
+.nutdilen {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    position: fixed;
+    bottom: 0;
+    right: 0px;
+    z-index: 99;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(100px);
+    transition: 0.4s;
+}
+
+.nutdilen.hiennut {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+}
+
+.service ul li a:hover .gg {
+    color: white;
+    background: rgb(210,72,54);
+}
+
+.service ul li a:hover .twit {
+    background: rgb(64,153,254);
+    color: white;
+}
+
+.service ul li a:hover .linke {
+    color: white;
+    background: rgb(72,117,179);
+}
+
+span.index {
+    width: 50px;
+    height: 32px;
+    display: block;
+    padding-top: 4px;
+}
+
+.service {width: 100%;height: 22px;display: inline-block;margin: 25px auto;text-align: center;margin-left: 35%;}
+
+.service ul li a:hover .blue {
+    background: #428bca;
+    color: white;
+}
+
+.service ul li a:hover .fb {
+    color: white;
+    background: #164269;
+}
+
+.service ul li {
+    float: left;
+    width: 34px;
+    height: 30px;
+    margin-left: 25px;
+}
+
+.service ul {
+    list-style: none;
+}
+
+.product {
+    padding-bottom: 15px;
+}
+
+textarea#message {
+    
+}
+
+h3.section-subheading.text-muted {
+    margin-bottom: 37px;
+    font-size: 25px;
+}
+
+h2.section-heading.text-uppercase {
+    color: white;
+    font-size: 45px;
+}
+
+section#contact {
+    background: #212529;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+img.card-img-top.img-responsive.imgProduct {
+    transition: 0.4s;
+}
+
+p.card-text.priceProduct {
+    font-weight: bold;
+    font-size: 20px;
+    color: red;
+}
+
+p.card-text.nameProduct {
+    width: 100%;
+    padding: 5px 0px 10px 0px;
+    border-bottom: 1px solid #80808075;
+    font-size: 18px;
+    text-align: center;
+}
+
+.card {
+    padding: 11px;
+}
+
+._1khoi {margin-top: 16px;}
+
+div#khoi {
+    cursor: pointer;
+}
+
+li.type1 a {
+    text-decoration: none;
+    transition: 0.4s;
+    color: white;
+}
+
+li.type1 a:hover {
+    font-weight: bold;
+    color: black;
+}
+
+li.type1 {
+    float: left;
+    width: 147px;
+    margin: 4px 0px 0px 22px;
+    text-decoration: none;
+}
+
+ul.dsdt {
+    list-style: none;
+}
+
+.smartphone {
+    position: absolute;
+    width: 511px;
+    height: 119px;
+    top: 60px;
+    left: 0px;
+    z-index: 5;
+    background: #007bff;
+    padding-left: 4px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+li.nav-item.sp {
+    position: relative;
+}
+
+.khungtimkiem form.form-inline {
+}
+
+.khungtimkiem ul li {
+    border: 1px solid #80808059;
+    padding: 14px 30px;
+}
+
+.khungtimkiem ul {
+    list-style: none;
+    color: black;
+}
+
+.timkiem h2 {background: #428bca;color: white;font-weight: bold;padding: 10px 20px;font-size: 20px;margin-bottom: 0px;}
+
+.khungtimkiem {margin: 10px auto;}
+
+nav {
+    height: 73px;
+}
+
+.menuchinh {font-size: 21px;position: relative;}
+
+.signin.nutdangnhap:hover {
+    color: #09afe5;
+}
+
+.signin.nutdangnhap {
+    /*position: absolute;
+    top: 28%;
+    right: 6%;
+    font-size: 25px;
+    font-weight: bold;*/
+    color: black;
+    cursor: pointer;
+}
+
+a.signin {
+    position: absolute;
+    top: 80px;
+    right: 23%;
+    font-size: 23px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.logo a img {
+    position: absolute;
+    top: -42px;
+    left: 0%;
+}
+
+.logo.container {
+    position: relative;
+    width: 100%;
+    height: 112px;
+}
+
+.nenxam.ra {
+    visibility: visible;
+    opacity: 1;
+}
+
+.dangnhap.hienthira {
+    transform: scale(1);
+    visibility: visible;
+    opacity: 1;
+}
+
+.dangnhap.divao{
+    transform: scale(0.3);
+    visibility: hidden;
+    opacity: 0;
+}
+.dangky.dira{
+    transform: scale(1);
+    visibility: visible;
+    opacity: 1;
+}
+html,body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.nenxam {
+    background: #00000042;
+    position: fixed;
+    z-index: 3;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+p.sign {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: gray;
+}
+
+.dangnhap ,.dangky{
+    width: 360px;
+    height: 350px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 28px 30px;
+    background: white;
+    margin: 5% auto;
+    position: fixed;
+    top: 5%;
+    left: 36%;
+    z-index: 5;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.4s;
+    transform: scale(0.3);
+}
+
+.dangky{
+    height: 500px;
+    z-index: 4;
+}
+
+.carousel-indicators{
+    bottom: 10%;
+    z-index: 1;
+}
+
+.carousel-control-next, .carousel-control-prev
+{
+    bottom: 6%;
+}
+
+.tangchieucaonav{
+    height: 300px;
+}
+
+nav.navbar.navbar-expand-lg.navbar-dark.bg-primary.menufix {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 2;
+}
+
+.field-label-responsive {
+    padding-top: .5rem;
+    text-align: right;
+  }
+
+#error{
+    transform: scale(0.4);
+    transition: 0.4s;
+    color: red;
+    margin-bottom: 5px; 
+}
+
+#error.chuyendong{
+    transform: scale(1);
+
+}
+
+/*css cho thÃ´ng tin tÃ i khoáº£n */
+.tttk.tttkra
+{    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    z-index: 15;
+}
+.tttk {
+    position: absolute;
+    right: 10%;
+    top: 68%;
+    width: 200px;
+    background: white;
+    z-index: 15;
+    border-radius: 3px;
+    border: 0.5px solid gray;
+    transition: 0.4s;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(5px);
+}
+.tttk li.a {
+    padding: 7px 8px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.tttk li.a:hover {
+    background: #EDEDED;
+    color: black;
+    border-right: 0.5px solid gray;
+    border-left: 0.5px solid gray;
+}
+
+.tttk a {
+    color: black;
+    text-decoration: none;
+}
+
+ul.tttk1 {
+    list-style: none;
+    width: 200px;
+    height: 110px;
+    margin-bottom: 0px;
+}
+
+.thongtinnguoidung {
+    position: absolute;
+    top: 75%;
+    right: 10%;
+    height: 100px;
+    margin-top: -50px;
+    font-size: 26px;
+    font-weight: bold;
+    cursor: pointer;
+    /*opacity: 0;
+    visibility: hidden;*/
+}
+
+.thongtinnguoidung:hover {
+    color: gray;
+}
+
+/*thanh toán */
+
+/*end thanh toán */
+
+.nentrang {
+    background: white;
+    position: relative;
+    width: 100%;
+    height: 500px;
+    margin-bottom: 25px;
+}
+.nentrang span.kocosp {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 19px;
+}
+span.btn.btn-warning.ttms {
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

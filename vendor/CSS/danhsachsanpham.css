@@ -1,0 +1,315 @@
+
+
+*{
+    padding: 0;
+    margin:0;
+}
+
+.chinhsua a {color: #28A745;text-decoration: none;}
+
+.chinhsua:hover a {
+    color: white;
+}
+.xoa a {color: #DC3545;text-decoration: none;}
+
+.xoa:hover a {
+    color: white;
+}
+
+.btn.btn-outline-danger.xoa {
+    margin-top: 5px;
+}
+
+.btn.btn-outline-success.chinhsua {
+    margin-top: 5px;
+}
+
+h2.td {
+    font-size: 41px;
+    font-weight: bold;
+}
+
+.btn.btn-outline-info.chitiet {
+    margin-left: 13px;
+    margin-top: 5px;
+}
+
+.hangsx {
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.thongtin {height: 100px;}
+
+.gt {
+    display: inline;
+    margin-left: 62px;
+    font-style: italic;
+    color: blue;
+}
+
+.tensp {
+    color: red;
+    margin-top: 9px;
+    display: inline;
+    font-size: 18px;
+}
+
+._1spadmin {
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 282px;
+    padding: 14px 12px;
+    margin-top: 22px;
+    margin-left: 66px;
+}
+
+.avt {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.user a {
+    text-decoration: none;
+    color: black;
+}
+
+.content {
+    font-size: 45px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    margin-top: 20%;
+}
+
+.user li {
+    width: 100%;
+    height: 40px;
+    padding: 10px 12px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.user li:hover {
+    background-color: #EDEDED;
+    color: gray;
+}
+
+ul.user {
+    list-style: none;
+    position: absolute;
+    width: 184px;
+    height: 78px;
+    background-color: white;
+    right: 2%;
+    top: 60px;
+    margin-bottom: 0px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.4s;
+    transform:rotate3d(360deg);
+}
+
+ul.user.hienra {
+    opacity: 1;
+    visibility: visible;
+}
+
+a.admin {float: right;margin-right: 2%;text-decoration: none;color: black;font-weight: bold;padding: 5px 10px;}
+
+a.admin:hover {
+    background-color: #D9DEE4;
+}
+
+.menutren {
+    width: 105%;
+    background-color: #EDEDED;
+    margin-left: -15px;
+    height: 60px;
+    position: relative;
+}
+
+p.fot.text-center {
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+    font-weight: bold;
+}
+
+i.fa {}
+
+i.fa.fada {
+    margin-right: 4px;
+}
+
+.nav.child_menu li {padding-left: 0px;width: 231px;height: 35px;margin-top: 4px;line-height: 32px;background: rgb(53,73,93);border-bottom: 1px solid rgb(78, 95, 111);}
+
+.nav>li {
+    position: relative;
+    display: block;
+}
+
+span.fa.fa-chevron-down {
+    position: absolute;
+    right: -23%;
+    top: 2px;
+    transition: 0.4s;
+}
+
+span.fa.fa-chevron-down.fa1.vaora {
+    right: 10px;
+    transform: rotate(180deg);
+}
+
+span.fa.fa-chevron-down.fa3 {
+    right: -31%;
+}
+
+span.fa.fa-chevron-down.fa2 {
+    right: -31%;
+}
+
+.nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+ul.nav.child_menu {
+    margin-left: 22px;
+    list-style: none;
+    border-top: 1px solid;
+    /*display: none;*/
+}
+
+.nav li.current-page {
+    background: rgba(255,255,255,.05);
+}
+
+.nav.side-menu>li {
+    position: relative;
+    display: block;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.nav.top_menu>li>a, .nav>li>a {}
+
+.nav>li>a {
+    padding: 13px 15px 12px;
+}
+
+.nav.child_menu>li>a, .nav.side-menu>li>a {
+    color: #E7E7E7;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.nav.side-menu>li>a {
+    margin-bottom: 6px;
+}
+
+.menu_section>ul {
+    margin-top: 10px;
+}
+
+ul.nav.side-menu {
+}
+
+.menu_section h3 {
+    padding-left: 19px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    font-weight: 700;
+    font-size: 11px;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-shadow: 1px 1px #000;
+    border-bottom: 1px solid white;
+    padding-bottom: 6px;
+}
+
+div#sidebar-menu {
+    margin-left: 0;
+}
+
+.profile_info h2 {
+    font-weight: bold;
+}
+
+.profile.clearfix {
+    padding-left: 15px;
+}
+
+.profile_info {
+    width: 66%;
+    float: right;
+    padding-top: 6px;
+}
+
+.profile_pic {
+    width: 34%;
+    float: left;
+}
+
+.row {
+    width: 100%;
+    height: 100%;
+}
+
+.row.search {
+    margin-left: 72%;
+}
+
+.row.text-center.tieude {
+    margin-left: 29%;
+}
+
+.container-fluid {
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+a.site_title {
+    text-decoration: none;
+    color: rgb(228,229,229);
+    margin-left: 21%;
+}
+
+.navbar.nav_title {font-size: 28px;}
+
+.left_col.scroll-view {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.col-md-2.left_col.menutrai {
+    background-color: rgb(41,62,83);
+    color: rgb(228,229,229);
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+body {
+    background-color: #F7F7F7;
+    font-family: "Helvetica Neue",Roboto,Arial,"Droid Sans",sans-serif;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+._1spadmin.ronghon {
+    height: 473px!important;
+}
+.tt{
+    font-size: 13px;
+    margin-top:2px;
+}
